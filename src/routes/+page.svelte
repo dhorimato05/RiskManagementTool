@@ -30,7 +30,7 @@
 		Position Size Calculator
 	</h1>
 
-	<div class="mb-10 flex w-1/2 justify-between">
+	<div class="mb-10 flex w-1/4 justify-between">
 		<div>
 			<Card.Root class="pb-4">
 				<Table.Root>
@@ -55,5 +55,10 @@
 		<div>
 			<Form data={data.form} />
 		</div>
+	</div>
+	<div>
+		<h1 class="mb-10 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-2xl">
+			Number of Contracts: {data.contracts}
+		</h1>
 	</div>
 </div>

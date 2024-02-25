@@ -7,8 +7,7 @@ export const formSchema = z.object({
 		.min(1, 'Risk Amount must be at least $1'),
 	stopLoss: z
 		.string({ required_error: 'Please enter a stop loss.' })
-		.min(1, 'Stop loss must be a minimum of 1 point.'),
-	contracts: z.string()
+		.min(1, 'Stop loss must be a minimum of 1 point.')
 });
 
 export type FormSchema = typeof formSchema;
