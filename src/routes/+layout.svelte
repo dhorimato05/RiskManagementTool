@@ -6,8 +6,8 @@
 	import Moon from 'lucide-svelte/icons/moon';
 </script>
 
-<nav class=" h-15 mb-10 flex w-full shadow-md">
-	<div class="flex w-full justify-end">
+<nav class="h-15 mb-10 flex w-full shadow-md sm:w-full md:w-full lg:w-full">
+	<div class="flex w-full justify-end sm:w-full">
 		<Button on:click={toggleMode} variant="outline" size="icon" class="m-2">
 			<Sun
 				class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"

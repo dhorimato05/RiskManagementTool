@@ -26,13 +26,17 @@
 </script>
 
 <div class="flex w-full flex-col items-center justify-center">
-	<h1 class="mb-10 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+	<h1
+		class="2xs:text-sm mb-10 scroll-m-20 text-4xl font-extrabold tracking-tight sm:text-lg lg:text-5xl"
+	>
 		Position Size Calculator
 	</h1>
 
-	<div class="mb-10 flex w-1/4 justify-between">
+	<div
+		class="sm:max-w-1/4 2xs:flex 2xs:flex-col 2xs:items-center mb-10 flex w-1/4 justify-between gap-5 sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row"
+	>
 		<div>
-			<Card.Root class="pb-4">
+			<Card.Root class="2xs:w-[200px] pb-4">
 				<Table.Root>
 					<Table.Caption>$ per point for each future ticker.</Table.Caption>
 					<Table.Header>
@@ -57,7 +61,9 @@
 		</div>
 	</div>
 	<div>
-		<h1 class="mb-10 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-2xl">
+		<h1
+			class="2xs:text-sm 2xs:text-center 2xs:justify-center mb-10 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-2xl"
+		>
 			Number of Contracts: {data.contracts}
 		</h1>
 	</div>
